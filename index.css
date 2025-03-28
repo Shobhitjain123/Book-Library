@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    justify-content:space-between;
+    height: 08vh;
+    padding: 10px;
+}
+
+.logo{
+    border-radius: 20%;
+}
+
+.profileLogo{
+    border-radius: 20%;
+}
+
+.grid-list{
+    height: 20px;
+    width: 20px;
+}
+
+.search-sort{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+}
+
+.search-bar{
+    width: 60%;
+    height: 4vh;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.thumbnailImg{
+    height: 10rem;
+    width: 10rem;
+    object-fit: contain;
+}
+
+.library{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.book-card{
+    margin: 1rem;
+    max-width: min-content;
+    margin-left: 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.thumbnail{
+    width: 100%;
+    text-align: center;
+}
+
+.details{
+    padding: 5px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.heroSection{
+    height: 25vh;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.sort-buttons{
+    padding: 5px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.sort-buttons:hover{
+    background-color: #a09d9d;
+}
+
+/* // List View Classes */
+
+.libraryListView{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.bookCardListView{
+    margin: 1rem;
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.thumbnailListView{
+    width: 30%;
+    float: left;
+    text-align: center;
+}

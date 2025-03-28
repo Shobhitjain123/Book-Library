@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Book Library</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="./images/logo.webp" alt="" class="logo">
+        <img src="./images/user.png" alt="" class="profileLogo">
+    </nav>
+    <div class="heroSection">
+        <h2>"A reader lives a thousand lives before he dies." <p>— George R.R. Martin</p></h2>
+    </div>
+    <div class="search-sort">
+        <input type="text" placeholder="Search with Title/Author" class="search-bar">
+        <button id = "titleSort" class="sort-buttons">Sort By Title</button>
+        <button id="dateSort" class="sort-buttons">Sort By Date</button>
+        <img src="./images/menu.png" alt="" class="grid-list" onclick="switchView('grid')">
+        <img src="./images/list.png" alt="" class="grid-list" onclick="switchView('list')">
+    </div>
+
+    <div id = "library" class="library">
+        <!-- <div class="book-card">
+            <div class="thumbnail">
+                <img src="./images/logo.webp" alt="" class="thumbnailImg">
+            </div>
+            <div class="book-details">
+                <p class="title details">Title</p>
+                <p class="author details">Author: Author Name</p>
+                <p class="publisher details">Publisher: Publisher Name</p>
+                <p class="pubDate details">Published Date</p>
+                <a href="" class="txtShowMore details">Show more...</a>
+            </div>
+        </div> -->
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
