@@ -31,7 +31,7 @@ project-folder/
 ```
 
 ## Usage
-- Open the `index.html` file in a browser.
+- Open the `url - https://book-library-two-eta.vercel.app/` file in a browser.
 - Use the search bar to filter books by title or author.
 - Click the "Sort By Title" or "Sort By Date" button to sort the books.
 - Click the grid or list view icons to change the display format.
